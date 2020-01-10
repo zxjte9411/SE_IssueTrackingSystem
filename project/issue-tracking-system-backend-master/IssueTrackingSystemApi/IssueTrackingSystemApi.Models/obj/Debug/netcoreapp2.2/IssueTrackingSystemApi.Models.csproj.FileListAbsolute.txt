@@ -1,9 +1,0 @@
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.deps.json
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.dll
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.pdb
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.csprojAssemblyReference.cache
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.csproj.CoreCompileInputs.cache
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.AssemblyInfoInputs.cache
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.AssemblyInfo.cs
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.dll
-C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Models\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.pdb
