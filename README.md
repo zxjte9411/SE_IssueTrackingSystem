@@ -7,6 +7,26 @@
 - 楊永健 105590045
 - 卓旭嘉 105590046
 - 江俊廷 105820006
+## 目錄結構
+```
+- demoVideo
+    | - 一般使用者 (4)
+    | - 管理員 (2)
+- doc
+    | - class diagram(3)
+    | - sequence diagram(10)
+    | - system block diagram(6)
+    | - use case diagram(6)
+    | - 簡報(2)
+    | - PEP.pdf
+    | - SRS.pdf
+    | - SDD.pdf
+    | - STD.pdf
+    | - 分工結構圖.png
+- project
+    | - issue-tracking-system-frontend-master
+- README.md
+```
 ## Development Back End Server
 
 ## Development Front End Server
