@@ -1,0 +1,14 @@
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.deps.json
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.dll
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.pdb
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.CommonTools.dll
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.dll
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.CommonTools.pdb
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\bin\Debug\netcoreapp2.2\IssueTrackingSystemApi.Models.pdb
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.csprojAssemblyReference.cache
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.csproj.CoreCompileInputs.cache
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.AssemblyInfoInputs.cache
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.AssemblyInfo.cs
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.csproj.CopyComplete
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.dll
+C:\Users\LaAaa\Documents\IssueTrackingSystem\IssueTrackingSystemApi\IssueTrackingSystemApi.Dao\obj\Debug\netcoreapp2.2\IssueTrackingSystemApi.Dao.pdb
