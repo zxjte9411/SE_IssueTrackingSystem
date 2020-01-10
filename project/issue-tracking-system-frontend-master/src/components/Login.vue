@@ -54,7 +54,7 @@ export default {
       // write login authencation logic here!
         let res = await axios
           .post(
-            "http://lspssapple.asuscomm.com:81/api/user/token",
+            `${process.env.VUE_APP_APIPATH}/api/user/token`,
             { account: this.userID, password: this.password },
             { headers: { "content-type": "application/json;charset=utf-8" } }
           )

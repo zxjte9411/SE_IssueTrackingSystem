@@ -106,7 +106,7 @@ export default {
       };
       let res = null;
       res = await axios
-        .post("http://lspssapple.asuscomm.com:81/api/user", data, {
+        .post(`${process.env.VUE_APP_APIPATH}/api/user`, data, {
           headers: { "content-type": "application/json;charset=utf-8" }
         })
         .then(async function(res) {

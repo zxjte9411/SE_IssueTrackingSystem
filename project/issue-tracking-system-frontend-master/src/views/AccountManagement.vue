@@ -381,7 +381,7 @@ export default {
     async fetchData() {
       const token = localStorage.getItem("token");
       let res = await axios
-        .get("http://lspssapple.asuscomm.com:81/api/user", {
+        .get(`${process.env.VUE_APP_APIPATH}/api/user`, {
           headers: {
             "content-type": "application/json;charset=utf-8",
             Authorization: `Bearer ${token}`
@@ -407,7 +407,7 @@ export default {
         const token = localStorage.getItem("token");
         let res = await axios
           .delete(
-            `http://lspssapple.asuscomm.com:81/api/user/${this.deleteItem.id}`,
+            `${process.env.VUE_APP_APIPATH}/api/user/${this.deleteItem.id}`,
             {
               headers: {
                 "content-type": "application/json;charset=utf-8",
@@ -443,7 +443,7 @@ export default {
       const token = localStorage.getItem("token");
       let res = await axios
         .post(
-          `http://lspssapple.asuscomm.com:81/api/user/${this.newData.userId}`,
+          `${process.env.VUE_APP_APIPATH}/api/user/${this.newData.userId}`,
           data,
           {
             headers: {

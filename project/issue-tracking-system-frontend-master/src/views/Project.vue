@@ -470,7 +470,7 @@ export default {
     async fetchData() {
       const token = localStorage.getItem("token");
       let res = await axios
-        .get("http://lspssapple.asuscomm.com:81/api/project", {
+        .get(`${process.env.VUE_APP_APIPATH}/api/project`, {
           headers: {
             "content-type": "application/json;charset=utf-8",
             Authorization: `Bearer ${token}`
@@ -496,7 +496,7 @@ export default {
         const token = localStorage.getItem("token");
         let res = await axios
           .delete(
-            `http://lspssapple.asuscomm.com:81/api/project/${this.deleteItem.id}`,
+            `${process.env.VUE_APP_APIPATH}/api/project/${this.deleteItem.id}`,
             {
               headers: {
                 "content-type": "application/json;charset=utf-8",
@@ -524,7 +524,7 @@ export default {
       const token = localStorage.getItem("token");
       let res = await axios
         .post(
-          `http://lspssapple.asuscomm.com:81/api/project/${this.newData.id}`,
+          `${process.env.VUE_APP_APIPATH}/api/project/${this.newData.id}`,
           data,
           {
             headers: {
@@ -551,7 +551,7 @@ export default {
       }
     },
     createProject() {
-      const api = "http://lspssapple.asuscomm.com:81/api/project";
+      const api = `${process.env.VUE_APP_APIPATH}/api/project`;
       const vm = this;
       const token = localStorage.getItem("token");
       vm.tempProject.managerId = parseInt(localStorage.getItem("user_id"));
@@ -597,7 +597,7 @@ export default {
       this.$bvModal.show("show-issues-Modal");
     },
     getAllUser() {
-      const api = "http://lspssapple.asuscomm.com:81/api/user";
+      const api = `${process.env.VUE_APP_APIPATH}/api/user`;
       const vm = this;
       const token = localStorage.getItem("token");
       axios
@@ -620,7 +620,7 @@ export default {
         });
     },
     getAllIssue() {
-      const api = "http://lspssapple.asuscomm.com:81/api/issue";
+      const api = `${process.env.VUE_APP_APIPATH}/api/issue`;
       const vm = this;
       const token = localStorage.getItem("token");
       axios

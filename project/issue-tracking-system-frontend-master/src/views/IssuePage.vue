@@ -167,7 +167,7 @@
         methods: {
             getIssue() {
                 const vm = this;
-                const api = 'http://lspssapple.asuscomm.com:81/api/issue/' + vm.$route.params.id;
+                const api = `${process.env.VUE_APP_APIPATH}/api/issue/` + vm.$route.params.id;
                 const token = localStorage.getItem('token');
                 this.$http.get(
                     api,
@@ -181,7 +181,7 @@
                 }); 
             },
             getAllProject(){
-                const api = 'http://lspssapple.asuscomm.com:81/api/project';
+                const api = `${process.env.VUE_APP_APIPATH}/api/project`;
                 const vm = this;
                 const token = localStorage.getItem('token');
                 this.$http.get(
@@ -196,7 +196,7 @@
                 }); 
             },
             getAllUser(){
-                const api = 'http://lspssapple.asuscomm.com:81/api/user';
+                const api = `${process.env.VUE_APP_APIPATH}/api/user`;
                 const vm = this;
                 const token = localStorage.getItem('token');
                 this.$http.get(
@@ -212,7 +212,7 @@
             },
             updateIssue(){
                 const vm = this;
-                const api = 'http://lspssapple.asuscomm.com:81/api/issue/' + vm.issue.id;
+                const api = `${process.env.VUE_APP_APIPATH}/api/issue/` + vm.issue.id;
                 const token = localStorage.getItem('token');
                 this.$http.post(
                     api,

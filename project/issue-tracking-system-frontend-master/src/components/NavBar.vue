@@ -53,7 +53,7 @@ export default {
     async CheckIdentity() {
       const user_id = localStorage.getItem("user_id");
       const token = localStorage.getItem("token");
-      const api = `http://lspssapple.asuscomm.com:81/api/user/${user_id}`;
+      const api = `${process.env.VUE_APP_APIPATH}/api/user/${user_id}`;
       const vm = this;
       let res = await axios
         .get(api, {

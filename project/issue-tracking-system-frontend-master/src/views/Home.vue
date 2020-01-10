@@ -185,7 +185,7 @@
     },
     methods: {
         getIssueList() {
-            const api = 'http://lspssapple.asuscomm.com:81/api/issue';
+            const api = `${process.env.VUE_APP_APIPATH}/api/issue`;
             const vm = this;
             const token = localStorage.getItem('token');
             const id = localStorage.getItem('userId');
@@ -207,7 +207,7 @@
             }); 
         },
         getAllUser(){
-            const api = 'http://lspssapple.asuscomm.com:81/api/user';
+            const api = `${process.env.VUE_APP_APIPATH}/api/user`;
             const vm = this;
             const token = localStorage.getItem('token');
             this.$http.get(

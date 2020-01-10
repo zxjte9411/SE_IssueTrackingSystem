@@ -176,7 +176,7 @@
         },
         methods: {
             getIssueList() {
-                const api = 'http://lspssapple.asuscomm.com:81/api/issue';
+                const api = `${process.env.VUE_APP_APIPATH}/api/issue`;
                 const vm = this;
                 const token = localStorage.getItem('token');
                 const id = localStorage.getItem('user_id');
@@ -210,7 +210,7 @@
                 })
                 .then(value => {
                     if (value){
-                        const api = 'http://lspssapple.asuscomm.com:81/api/issue/' + issue.id;
+                        const api = `${process.env.VUE_APP_APIPATH}/api/issue/` + issue.id;
                         const vm = this;
                         const token = localStorage.getItem('token');
                         this.$http.delete(
@@ -243,7 +243,7 @@
                 this.tempIssue = emptyIssue;
             },
             createIssue(){
-                const api = 'http://lspssapple.asuscomm.com:81/api/issue';
+                const api = `${process.env.VUE_APP_APIPATH}/api/issue`;
                 const vm = this;
                 const token = localStorage.getItem('token');
                 vm.tempIssue.createUser = parseInt(localStorage.getItem('user_id'));
@@ -266,7 +266,7 @@
                 vm.$router.push({ path: `/issue/${issue.id}`})
             },
             getAllUser(){
-                const api = 'http://lspssapple.asuscomm.com:81/api/user';
+                const api = `${process.env.VUE_APP_APIPATH}/api/user`;
                 const vm = this;
                 const token = localStorage.getItem('token');
                 this.$http.get(
