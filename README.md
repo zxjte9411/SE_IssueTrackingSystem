@@ -81,10 +81,12 @@ Application started. Press Ctrl+C to shut down.
     ```
     npm run serve
     ```
-4. 在瀏覽器輸入此連結即可使用本系統： 
+4. 假如後端伺服器不是使用我們預設的，請記得更改前端專案根目錄下 **.env** 檔案中 `VUE_APP_APIPATH` 的值，改成您自行架設的後端伺服器位置
+5. 在瀏覽器輸入此連結即可使用本系統： 
     ```
     http://localhost:8080/
     ```
+
 ### 預設可用帳號
 - 預設系統管理員帳號：Admin
 - 預設系統管理員密碼：admin
