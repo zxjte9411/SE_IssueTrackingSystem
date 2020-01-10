@@ -29,6 +29,46 @@
 ```
 ## Development Back End Server
 
+### Reqirement
+- SQL Server Management Studio
+- .Net Core SDK 2.2 ([Link](https://dotnet.microsoft.com/download/dotnet-core/2.2))
+    - Verification
+        ```
+        dotnet --version
+        ```
+        should display
+        ```
+        2.2.xxx
+        ```
+### Setup Database
+Open SSMS, execute all the sql file below .\project\issue-tracking-system-backend-master\DataBase
+
+### Connection string
+Modify the file appsettings.json at .\project\issue-tracking-system-backend-master\IssueTrackingSystemApi\IssueTrackingSystemApi
+
+Change the credential of section "DBConnection", showing the format below:
+```
+"DBConnection": "Data Source={DATA_SOURCE};Initial Catalog=ITS;User ID={ID};Password={PASSWORD}"
+```
+
+### Run the server
+- Open cmd.exe
+- cd to repository folder
+- cd to location of api
+    ```
+    cd .\project\issue-tracking-system-backend-master\IssueTrackingSystemApi\IssueTrackingSystemApi
+    ```
+- run the server
+    ```
+    dotnet run
+    ```
+The console should contain:
+```
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+```
+
+
 ## Development Front End Server
 
 ### 安裝步驟
